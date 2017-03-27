@@ -7,6 +7,10 @@
 </template>
 
 <script>
+/*
+ By Abi Salazar https://abisalazar.co.uk/ && https://development.abisalazar.co.uk/
+ Available for use under the MIT License
+ */
     export default{
         props: ['ContentType', 'SingleItem'],
         data : function () {
@@ -31,7 +35,7 @@
                this.DisableBtn();
                axios({
                     method: 'GET',
-                    url: '/load?page=' + this.Page,
+                    url: '/'+this.$root.ContentLoaderConfig.Url+'?page=' + this.Page,
                     params: {
                     ContentType: this.ContentType,
                     SingleItem: this.SingleItem,

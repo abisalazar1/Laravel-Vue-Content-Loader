@@ -36,7 +36,8 @@ window.vm = new Vue({
         ContentLoaderConfig : {
             RequestType: 'GET',
             AutoLoadContent: true,
-            LoadBtnText : "Load More"
+            LoadBtnText : "Load More",
+            Url: 'load'
 
         }
     }

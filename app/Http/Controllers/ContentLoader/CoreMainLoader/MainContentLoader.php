@@ -1,11 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: abisalazar
- * Date: 25/03/2017
- * Time: 09:44
+/*
+ By Abi Salazar https://abisalazar.co.uk/ && https://development.abisalazar.co.uk/
+ Available for use under the MIT License
  */
-
 namespace App\Http\Controllers\ContentLoader\CoreMainLoader;
 
 abstract class MainContentLoader implements ContentLoaderInterface

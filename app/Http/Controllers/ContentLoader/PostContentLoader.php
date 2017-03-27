@@ -1,11 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: abisalazar
- * Date: 27/03/2017
- * Time: 17:03
+/*
+ By Abi Salazar https://abisalazar.co.uk/ && https://development.abisalazar.co.uk/
+ Available for use under the MIT License
  */
-
 namespace App\Http\Controllers\ContentLoader;
 
 use App\Http\Controllers\ContentLoader\CoreMainLoader\MainContentLoader;

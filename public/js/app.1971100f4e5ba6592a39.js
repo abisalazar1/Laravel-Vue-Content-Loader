@@ -32109,7 +32109,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     })
   }), _vm._v(" "), _c('app-content-loader', {
     attrs: {
-      "ContentType": "User"
+      "ContentType": "User",
+      "SingleItem": "1"
     }
   })], 2)
 },staticRenderFns: []}

@@ -46,7 +46,7 @@ Then Add the content loader component and send through the ContentType that you 
 <app-content-loader ContentType="User" > </app-content-loader>" and Send the ContentType
 
 ```
-###Example
+### Example
 ```
  <template>
      <div>
@@ -67,7 +67,7 @@ Then Add the content loader component and send through the ContentType that you 
  </script>
 
 ```
-##Routing
+## Routing
 
 Add a new route. 
 ```
@@ -85,7 +85,7 @@ Route::get('/load', 'ContentLoader\CoreMainLoader\ContentLoaderHandler@LoadConte
 
     }
 ```
-##Creating ContentLoader Type Controller
+## Creating ContentLoader Type Controller
 
 - Create a new controller and name it. {RequestType}ContentLoader.
 - Controller should extend MainContentLoader.
@@ -123,7 +123,7 @@ class UserContentLoader extends MainContentLoader
 
 
 
-##Validation
+## Validation
 
 By default there is a ContentLoaderRequest Validation under the request Folder.
 ```

@@ -113,8 +113,8 @@ class UserContentLoader extends MainContentLoader
 
     public function execute()
     {
-        if($SingleItem){
-            return (new User())->newQuery()->where('id',$SingleItem);
+        if($this->SingleItem){
+            return (new User())->newQuery()->where('id',$this->SingleItem);
         }
         return (new User())->newQuery();
     }
